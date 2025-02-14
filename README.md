@@ -24,8 +24,8 @@
     "fullName": "Test User",
     "gender": "male",
     "dateOfBirth": "1990-01-01",
-    "country": "India"
-}
+    "country": "India"}
+
 
     ```
 - **Action**: Click **Send** to create a new user.
