@@ -10,7 +10,7 @@
 
 ### 1. Register a New User  
 - **Method**: POST  
-- **URL**: `http://localhost:5000/api/auth/register`  
+- **URL**: `http://localhost:8000/api/auth/register`  
 - **Headers**:  
     ```
     Content-Type: application/json
@@ -28,7 +28,7 @@
 
 ### 2. Get JWT Token (Login)  
 - **Method**: POST  
-- **URL**: `http://localhost:5000/api/auth/login`  
+- **URL**: `http://localhost:8000/api/auth/login`  
 - **Headers**:  
     ```
     Content-Type: application/json
@@ -55,7 +55,7 @@
 
 ### 3. Search for a User  
 - **Method**: GET  
-- **URL**: `http://localhost:5000/api/users/search?term=testuser`  
+- **URL**: `http://localhost:8000/api/users/search?term=testuser`  
 - **Headers**:  
     ```
     Authorization: Bearer YOUR_JWT_TOKEN
@@ -99,12 +99,9 @@ Alternatively, you can use the **Authorization** tab:
 ---
 
 ### Troubleshooting  
-- Ensure your backend server is running at `http://localhost:5000`.  
+- Ensure your backend server is running at `http://localhost:8000`.  
 - Double-check the JWT token's validity and ensure it's correctly copied.  
 - If you receive a `401 Unauthorized` error, the token might be expired. Try logging in again to get a new token.
 
 ---
 
-### References  
-- [Postman Documentation](https://learning.postman.com/docs/getting-started/introduction/)
-- [JWT Token Guide](https://jwt.io/introduction/)
