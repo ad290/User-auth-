@@ -17,10 +17,16 @@
     ```
 - **Body (JSON)**:
     ```json
-    {
-      "email": "testuser@example.com",
-      "password": "yourpassword"
-    }
+   {
+    "username": "test1user",
+    "email": "testing@example.com",
+    "password": "password123",
+    "fullName": "Test User",
+    "gender": "male",
+    "dateOfBirth": "1990-01-01",
+    "country": "India"
+}
+
     ```
 - **Action**: Click **Send** to create a new user.
 
